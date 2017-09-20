@@ -1,0 +1,3853 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<!-- include head after this -->
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to Indian Railway Passenger Reservation Enquiry</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css?version=1" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-item.css?version=1" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="js/jquery.js?version=1"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js?version=1"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script src="js/pnrEnquiryJS.js?version=5"></script>
+</head>
+
+<body>
+
+<!--include header after this-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.jsp">Indian Railways Enquiry</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="PnrEnquiry.html">PNR Status</a>
+                    </li>
+                    <li>
+                        <a href="TrainBetweenImportantStations.html">Reserved Train Between Stations</a>
+                    </li>
+                    <li>
+                        <a href="SeatAvailability.html">Seat Availability</a>
+                    </li>
+                    <li>
+                        <a href="FareEnquiry.html">Fare Enquiry</a>
+                    </li>
+                       <li>
+                        <a href="TrainSchedule.html">Reserved Train Schedule</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<div class="container">    
+    <div class="row">
+            <div class="col-md-8 col-md-push-2 text-center">
+            	<h3>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY (Beta)</h3>
+            </div>
+            <div class="col-md-2 col-md-pull-8 col-sm-6">
+            	<a class="pull-left" href="index.jsp"><img src="images/rail.gif"></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+            	<a class="pull-right" href="https://india.gov.in/"><img src="images/india.gif"></a>
+            	<a class="pull-right" href="http://cris.org.in/"><img src="images/cris.gif"></a>
+            </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<marquee class="pull-center" behavior="scroll" direction="left">Please help Indian railways and government of India in moving towards a digitized and cashless economy. Eradicate black money.
+
+</marquee>
+        </div>
+    </div>
+</div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+<!-- include footer after this -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2017, Centre For Railway Information Systems, Designed and Hosted by CRIS</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    
+
+
+
+</body></html><head>
+
+<!-- include head after this -->
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to Indian Railway Passenger Reservation Enquiry</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css?version=1" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-item.css?version=1" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="js/jquery.js?version=1"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js?version=1"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script src="js/pnrEnquiryJS.js?version=5"></script>
+</head><body>
+
+<!--include header after this-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.jsp">Indian Railways Enquiry</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="PnrEnquiry.html">PNR Status</a>
+                    </li>
+                    <li>
+                        <a href="TrainBetweenImportantStations.html">Reserved Train Between Stations</a>
+                    </li>
+                    <li>
+                        <a href="SeatAvailability.html">Seat Availability</a>
+                    </li>
+                    <li>
+                        <a href="FareEnquiry.html">Fare Enquiry</a>
+                    </li>
+                       <li>
+                        <a href="TrainSchedule.html">Reserved Train Schedule</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<div class="container">    
+    <div class="row">
+            <div class="col-md-8 col-md-push-2 text-center">
+            	<h3>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY (Beta)</h3>
+            </div>
+            <div class="col-md-2 col-md-pull-8 col-sm-6">
+            	<a class="pull-left" href="index.jsp"><img src="images/rail.gif"></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+            	<a class="pull-right" href="https://india.gov.in/"><img src="images/india.gif"></a>
+            	<a class="pull-right" href="http://cris.org.in/"><img src="images/cris.gif"></a>
+            </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<marquee class="pull-center" behavior="scroll" direction="left">Please help Indian railways and government of India in moving towards a digitized and cashless economy. Eradicate black money.
+
+</marquee>
+        </div>
+    </div>
+</div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+<!-- include footer after this -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2017, Centre For Railway Information Systems, Designed and Hosted by CRIS</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    
+
+
+
+</body><!--include header after this--><!-- Navigation --><nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.jsp">Indian Railways Enquiry</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="PnrEnquiry.html">PNR Status</a>
+                    </li>
+                    <li>
+                        <a href="TrainBetweenImportantStations.html">Reserved Train Between Stations</a>
+                    </li>
+                    <li>
+                        <a href="SeatAvailability.html">Seat Availability</a>
+                    </li>
+                    <li>
+                        <a href="FareEnquiry.html">Fare Enquiry</a>
+                    </li>
+                       <li>
+                        <a href="TrainSchedule.html">Reserved Train Schedule</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav><div class="container">    
+    <div class="row">
+            <div class="col-md-8 col-md-push-2 text-center">
+            	<h3>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY (Beta)</h3>
+            </div>
+            <div class="col-md-2 col-md-pull-8 col-sm-6">
+            	<a class="pull-left" href="index.jsp"><img src="images/rail.gif"></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+            	<a class="pull-right" href="https://india.gov.in/"><img src="images/india.gif"></a>
+            	<a class="pull-right" href="http://cris.org.in/"><img src="images/cris.gif"></a>
+            </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<marquee class="pull-center" behavior="scroll" direction="left">Please help Indian railways and government of India in moving towards a digitized and cashless economy. Eradicate black money.
+
+</marquee>
+        </div>
+    </div>
+</div><!-- Page Content --><div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div>
+
+    </div><<pseudo:before>></<pseudo:before>><div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div><<pseudo:after>></<pseudo:after>><div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div>
+
+    </div><!-- /.container --><!-- include footer after this --><div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2017, Centre For Railway Information Systems, Designed and Hosted by CRIS</p>
+                </div>
+            </div>
+        </footer>
+
+    </div><body>
+
+<!--include header after this-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.jsp">Indian Railways Enquiry</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="PnrEnquiry.html">PNR Status</a>
+                    </li>
+                    <li>
+                        <a href="TrainBetweenImportantStations.html">Reserved Train Between Stations</a>
+                    </li>
+                    <li>
+                        <a href="SeatAvailability.html">Seat Availability</a>
+                    </li>
+                    <li>
+                        <a href="FareEnquiry.html">Fare Enquiry</a>
+                    </li>
+                       <li>
+                        <a href="TrainSchedule.html">Reserved Train Schedule</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<div class="container">    
+    <div class="row">
+            <div class="col-md-8 col-md-push-2 text-center">
+            	<h3>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY (Beta)</h3>
+            </div>
+            <div class="col-md-2 col-md-pull-8 col-sm-6">
+            	<a class="pull-left" href="index.jsp"><img src="images/rail.gif"></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+            	<a class="pull-right" href="https://india.gov.in/"><img src="images/india.gif"></a>
+            	<a class="pull-right" href="http://cris.org.in/"><img src="images/cris.gif"></a>
+            </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<marquee class="pull-center" behavior="scroll" direction="left">Please help Indian railways and government of India in moving towards a digitized and cashless economy. Eradicate black money.
+
+</marquee>
+        </div>
+    </div>
+</div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+<!-- include footer after this -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2017, Centre For Railway Information Systems, Designed and Hosted by CRIS</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    
+
+
+
+</body><body>
+
+<!--include header after this-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.jsp">Indian Railways Enquiry</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="PnrEnquiry.html">PNR Status</a>
+                    </li>
+                    <li>
+                        <a href="TrainBetweenImportantStations.html">Reserved Train Between Stations</a>
+                    </li>
+                    <li>
+                        <a href="SeatAvailability.html">Seat Availability</a>
+                    </li>
+                    <li>
+                        <a href="FareEnquiry.html">Fare Enquiry</a>
+                    </li>
+                       <li>
+                        <a href="TrainSchedule.html">Reserved Train Schedule</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<div class="container">    
+    <div class="row">
+            <div class="col-md-8 col-md-push-2 text-center">
+            	<h3>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY (Beta)</h3>
+            </div>
+            <div class="col-md-2 col-md-pull-8 col-sm-6">
+            	<a class="pull-left" href="index.jsp"><img src="images/rail.gif"></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+            	<a class="pull-right" href="https://india.gov.in/"><img src="images/india.gif"></a>
+            	<a class="pull-right" href="http://cris.org.in/"><img src="images/cris.gif"></a>
+            </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<marquee class="pull-center" behavior="scroll" direction="left">Please help Indian railways and government of India in moving towards a digitized and cashless economy. Eradicate black money.
+
+</marquee>
+        </div>
+    </div>
+</div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <!-- insert left menu after this -->
+                             
+  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Services</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+	        <li class="list-group-item"><a href="http://www.indianrail.gov.in/MobileTicketing.html">Mobile Ticketing Services</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/FullTrafficRate.html">Registration of Train/Coach on Full Tariff Rate(FTR)</a></li>
+		    
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse3">Availability at Major Stations</a>
+		        </h4>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl.html">Next 7 days Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/7days_Avl_ck.html">Next 7 days Tatkal Availability Report</a></li>
+		          <li class="list-group-item"> <a href="http://www.indianrail.gov.in/availability_Trains_From_Major_Cities.html">Earliest date of Available Berths/Seats</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    
+		    <li class="list-group-item"><a href="TrainSchedule.html">Reserved Train Schedule</a></li>
+		    <li class="list-group-item"><a href="http://enquiry.indianrail.gov.in/ntes/">National Train Enquiry System</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/sms_Service.html">SMS Service</a></li>
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/inet_curbkg_Enq.html">Train Berth Availability</a></li>
+        </ul>
+        
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Information</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&amp;id=0,1,304,366,537,1774">Trains at a Glance October 2016-June 2017</a></li>
+          
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse5">Train Type Information</a>
+		        </h4>
+		      </div>
+		      <div id="collapse5" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/special_trn_list.html">Special</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/mail_express_trn_list.html">Mail/Express/Superfast</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luxury_Train.html">Luxury Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/rajdhani_trn_list.html">Rajdhani</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/shatabdi_trn_list.html">Shatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/jan_shatabdi.html">Janshatabdi</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/garibrath_trn_list.html">Garibrath/Yuva</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/duronto_trn_list.html">Duronto</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/tourist_trn_list.html">Tourist Trains</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/hill_Trains.html">Special Hill</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		    
+		    <li class="list-group-item"><a href="http://www.indianrail.gov.in/CateringCharge.html">Catering Charges</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse6">View Codes</a>
+		        </h4>
+		      </div>
+		      <div id="collapse6" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/stn_Code.html">Station codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/dont_Know_Station_Code.html">Class Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/quota_Code.html">Quota Codes</a></li>
+		          <li class="list-group-item"><a href="http://www.trainenquiry.com/station_name/station1.htm">Station Name</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+		      
+		      <li class="list-group-item"><a href="http://www.indianrail.gov.in/tatkal_Scheme.html">Tatkal Scheme</a></li>
+		    
+		      <div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" href="#collapse7">Rules</a>
+		        </h4>
+		      </div>
+		      <div id="collapse7" class="panel-collapse collapse">
+		        <ul class="list-group">
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/reservation_Rules.html">Reservation</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/refund_Rules.html">Refund</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/luggage_Rule.html">Luggage</a></li>
+		          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rules.html">Other Rules</a></li>
+		        </ul>
+		        <div class="panel-footer"></div>
+		      </div>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/international_Tourist.html">International Tourists</a></li>
+          
+          <li class="list-group-item"><a href="http://www.indianrail.gov.in/other_Rly_Sites.html">Other Railway Websites</a></li>
+        </ul>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    
+  </div>
+     
+            </div>
+
+            <div class="col-md-9">
+
+<!-- main body start -->
+				
+			
+			
+
+
+
+
+
+
+				
+	
+	            <div class="row">
+				<div class="col-md-12">
+				<h3 class="text-center bg-primary" style="padding:7px;">Passenger Current Status
+				Enquiry</h3>
+				
+				</div>
+				<div class="col-md-12">
+				<p style="font-size:12px;" id="curDate">21-Sep-2017 [01:37:45 IST]</p>
+				</div>
+				</div>
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult1">
+				<p id="errorMessage">
+				<strong>ERROR!</strong>Indicates a dangerous or potentially
+				negative action.
+				</p>
+				</div>
+			
+			<div id="firstCaptcha">   <div class="modal fade" id="myModal" role="dialog">    <div class="modal-dialog">          <div class="modal-content">            <div class="modal-header">             <button type="button" class="close" data-dismiss="modal">×</button>            </div>            <div class="modal-body">            <div class="row form-group">    						<div class="col-md-12">    						<div class="alert alert-danger hidden container col-md-12" id="errorResultmodal">    						<p id="errorMessagemodal"></p>    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-center label_text" id="CaptchaLabel" align="center">    						<label>Please enter the answer to the given captcha question?</label>    						</div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<img id="CaptchaImgID" class="captcha_style" src=""> <img id="refreshCaptcha" src="images/refresh.jpg" width="30" height="30" title="Refresh Captcha">    						</div>    						</div>    						</div>    						<div class="row form-group">    						<div class="col-md-12">    						<div class="col-md-6 text-left" align="center"></div>    						<div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">    						<input class="form-control_custom input_text_custom" type="text" id="inputCaptcha" value="" placeholder="Enter ans for the above Question">    						</div>    						</div>    						</div>							<div class="row form-group">							<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">							<input id="flagLabel" type="hidden">							</div>							</div>    						<div class="row form-group">    						<div class="col-md-12" align="center" style="margin-left:auto !important;margin-right:auto !important;">    						<input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="submitPnrNo">    						</div>    						</div>    						</div>    				        </div>    				      </div>    				    </div></div>
+				   
+						<div id="secondCaptcha">
+			
+   
+				    </div>
+				        
+				<div class="modal fade" id="myModal2" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content" style="height:600px;overflow-y: auto;overflow-x: auto;">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				          
+				        </div>
+				        <div class="modal-body">
+				        
+						
+			
+			
+			
+						</div>
+						
+				        </div>
+				        
+				      </div>
+				      
+				    </div>
+				
+				
+				
+				<div class="container col-md-12" id="inputPnrNoDiv">
+				<div style="padding: 5px; margin-bottom: 2px; height:">
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<h4 align="center" id="h2">Enter the PNR for your booking
+				below to get the current status. You will find it on the top
+				left corner of the ticket.</h4>
+				</div>
+				</div>							
+				<div class="row form-group">
+				<div class="col-md-12 text-center" align="center">
+				<div class="col-md-6 text-center  label_text" align="center">
+				<label>Enter PNR No.</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom" type="text" id="inputPnrNo" maxlength="10" value="" placeholder="Enter PNR Number" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)">
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" id="CaptchaLabel"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<img id="CaptchaImgID" class="captcha_style"
+				src="captchaDraw.png" />
+				<img id="refreshCaptcha"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-6 text-center label_text" 
+				align="center">
+				</div>
+				<div class="col-md-6" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha" value=""
+				placeholder="Enter ans for the above Question">
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row form-group">
+				<div class="col-md-12">
+				
+				<div class="col-md-6 text-center" align="center">
+				
+				</div>
+				<div class="col-md-6 text-center" align="center" style="margin-left:auto !important;margin-right:auto !important;">
+				<div id="firstCondition"><input type="button" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" value="Submit" id="modal1">&nbsp;&nbsp; <input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md" id="clearPnrNo" value="Clear"></div>
+				
+			<!-- 	&nbsp;&nbsp;
+				<input type="reset" style="margin-top: 10px; cursor: auto" class="btn btn-primary btn-md"
+				id="clearPnrNo" value="Clear"></input> -->
+				</div>
+				
+				</div>
+				</div>
+				<br>
+				</div>
+				</div>
+				
+				<div class="container col-md-12" id="pnrOutputDiv" style="display: none;">
+				<div style="padding: 5px; margin-bottom: 2px">
+				<div class="row">
+				<div class="col-md-12">
+				<h4 align="center" id="h4">You Queried For : PNR Number:</h4>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="journeyDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th><b>Train Number</b></th>
+				<th><b>Train Name</b></th>
+				<th><b>Boarding Date <br>(DD-MM-YYYY)
+				</b></th>
+				<th><b>From</b></th>
+				<th><b>To</b></th>
+				<th><b>Reserved Upto</b></th>
+				<th><b>Boarding Point</b></th>
+				<th><b>Class</b></th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="psgnDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>S. No.</th>
+				<th>Booking Status (Coach No , Berth No., Quota)</th>
+				<th>*Current Status (Coach No , Berth No.)</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12 table-responsive">
+				<table border="1" class="table table-bordered table-responsive text-center" id="otherDetailsTable">
+				<thead>
+				<tr class="bg-primary">
+				<th>Total Fare</th>
+				<th>Charting Status</th>
+				<th>Remarks if any</th>
+				<th>Train Status</th>
+				</tr>
+				</thead>
+				</table>
+				</div>
+				</div>
+				
+				<!--  <div class="row">
+				<div class="col-md-12 form-group">
+				<div class="col-md-6 text-center" id="CaptchaLabel1"
+				align="center">
+				<label>Please enter the answer to the given captcha question?</label>
+				</div>
+				<div class="col-md-6 " style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<img id="CaptchaImgID_refill" class="captcha_style"
+				src="captchaDraw.png" /> <img id="refreshCaptcha1"
+				src="images/refresh.jpg" width="30" height="30"
+				title="Refresh Captcha" />
+				
+				</div>
+				</div>
+				</div>-->
+				
+				<div class="row">
+	
+	
+				<div class="col-md-12 form-group">
+	
+				<div class="col-md-6 text-right" align="center">
+				<div class="col-md-6 text-right" align="center"></div>
+				<div class="col-md-6" align="center">
+				<div class="alert alert-danger hidden container col-md-12" id="errorResult2">
+				<p id="errorMessage2"></p>
+				</div>
+				</div>
+				</div>
+				
+				<!--  <div class="col-md-6" style="margin-left:auto !important;margin-right:auto !important;" align="center">
+				<input class="form-control_custom input_text_custom"
+				type="text" id="inputCaptcha_refill" value=""
+				placeholder="Enter ans for the above Question">
+				</div>-->
+				
+				</div>
+				</div>
+				<div class="row form-group">
+				<div class="col-md-12">
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				<div class="col-md-4 text-center" align="center">
+					<div id="secondCondition"><input type="button" class="btn btn-primary btn-md" id="getTrainSchedule1" value="Get Schedule"></div>
+			 
+				<!-- <input type="button" class="btn btn-primary btn-md"
+				id="getTrainSchedule" value="Get Schedule"></input> -->
+				</div>
+				<div class="col-md-4 text-center" align="center">
+				<input onclick="window.open('http://enquiry.indianrail.gov.in/ntes/')" type="button" class="btn btn-primary btn-md" id="clearPnrNo" value="Train Running Status">
+				
+				</div>
+				<div class="col-md-2 text-center" align="center">
+				</div>
+				</div>
+				</div>
+								
+								
+								
+								
+				<div class="col-md-12">
+				<p style="color: blue;">
+				<b>*Please Note that in case the Final Charts have not been
+				prepared, the Current Status might upgrade/downgrade at a
+				later stage.</b>
+				</p>
+				</div>
+	
+				<div class="row">
+				<div class="col-md-12">
+				<table width="100%" border="1" align="center" cellpadding="0" cellspacing="1" class="legend" style="text-align: center; font-size: 14px;">
+				<caption class="text-center bg-primary" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 3px; padding-bottom: 3px; font-weight: bold;">
+				LEGENDS</caption>
+				<tbody><tr class="text-center bg-primary">
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Symbol</th>
+				<th style="text-align: center; font-size: 15px;" class="mainheading">Description</th>
+				</tr>
+				<tr>
+				<td>CAN / MOD</td>
+				<td>Cancelled or Modified Passenger</td>
+				</tr>
+				<tr>
+				<td>CNF / Confirmed</td>
+				<td>Confirmed (Coach/Berth number will be available
+				after chart preparation)</td>
+				</tr>
+				<tr>
+				<td>RAC</td>
+				<td>Reservation Against Cancellation</td>
+				</tr>
+				<tr>
+				<td>WL #</td>
+				<td>Waiting List Number</td>
+				</tr>
+				<tr>
+				<td>RLWL</td>
+				<td>Remote Location Wait List</td>
+				</tr>
+				<tr>
+				<td>GNWL</td>
+				<td>General Wait List</td>
+				</tr>
+				<tr>
+				<td>PQWL</td>
+				<td>Pooled Quota Wait List</td>
+				</tr>
+				<tr>
+				<td>REGRET/WL</td>
+				<td>No More Booking Permitted</td>
+				</tr>
+				<tr>
+				<td>RELEASED</td>
+				<td>Ticket Not Cancelled but Alternative Accommodation
+				Provided</td>
+				</tr>
+				<tr>
+				<td>R# #</td>
+				<td>RAC Coach Number Berth Number</td>
+				</tr>
+				<tr>
+				<td>WEBCAN</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund not collected</td>
+				</tr>
+				<tr>
+				<td>WEBCANRF</td>
+				<td>Railway Counter Ticket Passenger cancelled through
+				internet and Refund collected</td>
+				</tr>
+				<tr>
+				<td>RQWL</td>
+				<td>Roadside Quota Waitlist</td>
+				</tr>
+				<tr>
+				<td>DPWL</td>
+				<td>Duty Pass Waitlist</td>
+				</tr>
+				<tr>
+				<td>TQWL</td>
+				<td>Tatkal Quota Waitlist</td>
+				</tr>
+	
+				</tbody></table>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90876119-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+					
+
+
+<!-- maint body end -->
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+<!-- include footer after this -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2017, Centre For Railway Information Systems, Designed and Hosted by CRIS</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    
+
+
+
+</body>
